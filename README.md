@@ -4,6 +4,12 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 
 ---
 
+## Example
+
+[See the starter kit in action](http://trevordmiller.github.io/github-pages-starter-kit).
+
+---
+
 ## Out-of-the-box
 
 - Blazing fast
