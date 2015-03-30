@@ -38,7 +38,7 @@ social:
 
 # OTHER
 
-baseurl:             	/
+baseurl:             	/github-pages-starter-kit/
 permalink:           	/blog/:categories/:title/
 relative_permalinks: 	true
 paginate:				5
