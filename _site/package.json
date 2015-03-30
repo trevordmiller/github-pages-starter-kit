@@ -1,0 +1,52 @@
+{
+  "name": "github-pages-starter-kit",
+  "version": "1.0.0",
+  "description": "An opinionated starter kit for GitHub Pages projects",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.4.0",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-babel": "^4.0.0",
+    "gulp-combine-media-queries": "^0.2.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-es6-module-transpiler": "^0.2.1",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jshint": "^1.9.4",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sass": "^1.3.3",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "^3.0.4",
+    "jshint-stylish": "^1.0.1"
+  },
+  "scripts": {
+    "start": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trevordmiller/github-pages-starter-kit"
+  },
+  "keywords": [
+    "front-end",
+    "gulp",
+    "sass",
+    "jshint",
+    "jekyll",
+    "github pages",
+    "es6",
+    "es2015",
+    "static site generator",
+    "babeljs"
+  ],
+  "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.frontend.tv/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trevordmiller/github-pages-starter-kit/issues"
+  },
+  "homepage": "https://github.com/trevordmiller/github-pages-starter-kit"
+}

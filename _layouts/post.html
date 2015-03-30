@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article class="post">
+
+	<header class="post__header">
+		<h1 class="post__title">{{page.title}}</h1>
+		<p class="post__description">{{ page.description }}</p>
+		<p class="post__category"><span class="icon icon--tag"></span> {{page.category}}</p>
+		<p class="post__date">{{ page.date | date_to_string }}</p>
+	</header>
+
+	<!--Inject content from markdown files in '_posts/'-->
+	{{content}}
+</article>

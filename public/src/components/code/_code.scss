@@ -1,0 +1,238 @@
+// Tomorrow Night // https://raw.githubusercontent.com/MozMorris/tomorrow-pygments/master/css/tomorrow_night.css.highlight
+
+// COLORS
+$color_tuna_approx: #373b41;
+$color_mirage_approx: #1d1f21;
+$color_pumice_approx: #c5c8c6;
+$color_mountain_mist_approx: #969896;
+$color_chestnut_rose_approx: #cc6666;
+$color_amethyst_smoke_approx: #b294bb;
+$color_di_serria_approx: #de935f;
+$color_neptune_approx: #8abeb7;
+$color_wild_willow_approx: #b5bd68;
+$color_rob_roy_approx: #f0c674;
+$color_bali_hai_approx: #81a2be;
+
+// INLINE CODE
+
+code {
+	color: $color_bali_hai_approx;
+	font-family: $font__family--monospace;
+	font-size: $font__size--xxs;
+	background: $color_mirage_approx;
+	padding: $spacing--xxxs $spacing--s;
+	border-radius: $border__radius;
+}
+
+// PYGMENTS SECTIONS
+
+.highlight {
+	overflow: scroll;
+	margin-bottom: $spacing--s;
+	border-radius: $border__radius;
+	padding: $spacing--xxs $spacing--s;
+	background: $color_mirage_approx;
+	color: $color_pumice_approx;
+
+	code {
+		font-size: $font__size--xxs;
+		background: $color_mirage_approx;
+		padding: $spacing--xxs $spacing--s;
+	}
+
+	.hll {
+		background-color: $color_tuna_approx;
+	}
+	.c {
+		color: $color_mountain_mist_approx;
+	}
+	.err {
+		color: $color_chestnut_rose_approx;
+	}
+	.k {
+		color: $color_amethyst_smoke_approx;
+	}
+	.l {
+		color: $color_di_serria_approx;
+	}
+	.n {
+		color: $color_pumice_approx;
+	}
+	.o {
+		color: $color_neptune_approx;
+	}
+	.p {
+		color: $color_pumice_approx;
+	}
+	.cm {
+		color: $color_mountain_mist_approx;
+	}
+	.cp {
+		color: $color_mountain_mist_approx;
+	}
+	.c1 {
+		color: $color_mountain_mist_approx;
+	}
+	.cs {
+		color: $color_mountain_mist_approx;
+	}
+	.gd {
+		color: $color_chestnut_rose_approx;
+	}
+	.ge {
+		font-style: italic;
+	}
+	.gh {
+		color: $color_pumice_approx;
+		font-weight: bold;
+	}
+	.gi {
+		color: $color_wild_willow_approx;
+	}
+	.gp {
+		color: $color_mountain_mist_approx;
+		font-weight: bold;
+	}
+	.gs {
+		font-weight: bold;
+	}
+	.gu {
+		color: $color_neptune_approx;
+		font-weight: bold;
+	}
+	.kc {
+		color: $color_amethyst_smoke_approx;
+	}
+	.kd {
+		color: $color_amethyst_smoke_approx;
+	}
+	.kn {
+		color: $color_neptune_approx;
+	}
+	.kp {
+		color: $color_amethyst_smoke_approx;
+	}
+	.kr {
+		color: $color_amethyst_smoke_approx;
+	}
+	.kt {
+		color: $color_rob_roy_approx;
+	}
+	.ld {
+		color: $color_wild_willow_approx;
+	}
+	.m {
+		color: $color_di_serria_approx;
+	}
+	.s {
+		color: $color_wild_willow_approx;
+	}
+	.na {
+		color: $color_bali_hai_approx;
+	}
+	.nb {
+		color: $color_pumice_approx;
+	}
+	.nc {
+		color: $color_rob_roy_approx;
+	}
+	.no {
+		color: $color_chestnut_rose_approx;
+	}
+	.nd {
+		color: $color_neptune_approx;
+	}
+	.ni {
+		color: $color_pumice_approx;
+	}
+	.ne {
+		color: $color_chestnut_rose_approx;
+	}
+	.nf {
+		color: $color_bali_hai_approx;
+	}
+	.nl {
+		color: $color_pumice_approx;
+	}
+	.nn {
+		color: $color_rob_roy_approx;
+	}
+	.nx {
+		color: $color_bali_hai_approx;
+	}
+	.py {
+		color: $color_pumice_approx;
+	}
+	.nt {
+		color: $color_neptune_approx;
+	}
+	.nv {
+		color: $color_chestnut_rose_approx;
+	}
+	.ow {
+		color: $color_neptune_approx;
+	}
+	.w {
+		color: $color_pumice_approx;
+	}
+	.mf {
+		color: $color_di_serria_approx;
+	}
+	.mh {
+		color: $color_di_serria_approx;
+	}
+	.mi {
+		color: $color_di_serria_approx;
+	}
+	.mo {
+		color: $color_di_serria_approx;
+	}
+	.sb {
+		color: $color_wild_willow_approx;
+	}
+	.sc {
+		color: $color_pumice_approx;
+	}
+	.sd {
+		color: $color_mountain_mist_approx;
+	}
+	.s2 {
+		color: $color_wild_willow_approx;
+	}
+	.se {
+		color: $color_di_serria_approx;
+	}
+	.sh {
+		color: $color_wild_willow_approx;
+	}
+	.si {
+		color: $color_di_serria_approx;
+	}
+	.sx {
+		color: $color_wild_willow_approx;
+	}
+	.sr {
+		color: $color_wild_willow_approx;
+	}
+	.s1 {
+		color: $color_wild_willow_approx;
+	}
+	.ss {
+		color: $color_wild_willow_approx;
+	}
+	.bp {
+		color: $color_pumice_approx;
+	}
+	.vc {
+		color: $color_chestnut_rose_approx;
+	}
+	.vg {
+		color: $color_chestnut_rose_approx;
+	}
+	.vi {
+		color: $color_chestnut_rose_approx;
+	}
+	.il {
+		color: $color_di_serria_approx;
+	}
+}

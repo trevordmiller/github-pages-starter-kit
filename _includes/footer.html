@@ -1,0 +1,10 @@
+<footer class="footer">
+	<div class="footer__content">
+		<nav class="footer__social-bar">
+			{% for item in site.social %}
+			<a class="footer__social-bar__item" href="{{item.href}}" target="_blank"><span class="icon icon--{{item.icon}}"></span></a>
+			{% endfor %}
+		</nav>
+		<p class="footer__copyright">&copy; {{site.title}} {{site.time | date: '%Y'}}. All rights reserved.</p>
+	</div>
+</footer>

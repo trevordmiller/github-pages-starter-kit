@@ -1,0 +1,24 @@
+@mixin grid($breakpoint, $items-per-row, $gutter) {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+
+	&__item {
+
+		// Mobile first layout
+		width: 100%;
+		margin: 0 0 $gutter;
+
+		// Create grid after breakpoint
+		@media (min-width: $breakpoint) {
+			margin-right: $gutter;
+			width: calc((100% - (#{$gutter} * (#{$items-per-row} - 1))) / #{$items-per-row}) !important;
+
+			// Remove right margin on last item per row
+			&:nth-of-type(#{$items-per-row}n + #{$items-per-row}) {
+				margin-right: 0;
+			}
+		}
+	}
+}

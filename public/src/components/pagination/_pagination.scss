@@ -1,0 +1,14 @@
+.pagination {
+	@include grid($breakpoint--s, 2, $spacing--l);
+	max-width: $breakpoint--m;
+	margin: 0 auto;
+
+	// Extend button styles
+	&__item.button {
+		margin-bottom: $spacing--m;
+
+		@media(min-width: $breakpoint--s) {
+			margin-bottom: 0;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+.hr {
+
+	// remove default styles
+	border: 0;
+	padding: 0;
+	margin: 0;
+
+	// custom styles
+	background: $color__gray--xlight;
+	height: $border--m;
+}

@@ -1,0 +1,39 @@
+$icomoon--woff: url(fonts/icomoon/fonts/icomoon.woff?xogyzi);
+$icomoon--ttf: url(fonts/icomoon/fonts/icomoon.ttf?xogyzi);
+$icomoon--svg: url(fonts/icomoon/fonts/icomoon.svg?xogyzi#icomoon);
+
+@font-face {
+	font-family: $font__family--icons;
+	src: $icomoon--woff format('woff'), $icomoon--ttf format('truetype'), $icomoon--svg format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon {
+	font-family: $font__family--icons;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+$icons: (
+	tag: '\f02b',
+	twitter: '\f099',
+	github: '\f09b',
+	envelope: '\f0e0',
+	youtube: '\f167',
+	rss: '\f09e'
+);
+
+.icon {
+	@each $iconName, $iconContent in $icons {
+		&--#{$iconName}:before {
+			content: $iconContent;
+		}
+	}
+}

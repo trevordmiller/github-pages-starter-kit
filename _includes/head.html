@@ -1,0 +1,18 @@
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	{% if site.webmasterID %}
+		<meta name="google-site-verification" content="{{site.webmasterID}}"/>
+	{% endif %}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		{% if page.title == "Home" %}
+			{{ site.title }} &middot; {{ site.tagline }}
+		{% else %}
+			{{ page.title }} &middot; {{ page.description }}
+		{% endif %}
+	</title>
+	<link rel="stylesheet" href="{{site.baseurl}}public/dist/all.min.css">
+	{% include favicons.html %}
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>

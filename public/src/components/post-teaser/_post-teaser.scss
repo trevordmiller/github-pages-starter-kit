@@ -1,0 +1,26 @@
+.post-teaser {
+	display: block;
+	text-align: center;
+	padding-bottom: $spacing--xl;
+	margin-bottom: $spacing--xl;
+	border-bottom: $border--m solid $color__gray--xlight;
+
+	&__title {
+		margin: 0;
+		font-size: $font__size--l;
+	}
+
+	&__description {
+
+	}
+
+	&__category {
+		color: $color__gray--light;
+		margin: 0;
+	}
+
+	&__date {
+		color: $color__gray--light;
+		margin: 0;
+	}
+}

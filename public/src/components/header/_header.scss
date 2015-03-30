@@ -1,0 +1,158 @@
+.header {
+
+	// BLOCK
+
+	background: $color__primary;
+	color: $color__white;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+
+	// ELEMENTS
+
+	&__content {
+		@extend %cushion;
+		padding-top: $spacing--s !important;
+		padding-bottom: $spacing--s !important;
+	}
+
+	&__bar {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	&__nav-toggle {
+		transition: background .3s;
+		padding: $spacing--s;
+		border-radius: $border__radius;
+		background: $color__primary;
+		cursor: pointer;
+		z-index: 100;
+		display: flex;
+		align-items: center;
+		color: $color__white;
+		margin-right: $spacing--base;
+
+		&:hover,
+		&:active {
+			color: $color__white;
+			background: $color__primary--dark;
+		}
+	}
+
+	&__hamburger {
+		display: inline-block;
+		margin: 0;
+
+		&--active {
+			.header__hamburger-line--1 {
+				transform: rotate(45deg) translate(8px, 7px);
+			}
+			.header__hamburger-line--2 {
+				opacity: 0;
+			}
+			.header__hamburger-line--3 {
+				transform: rotate(-45deg) translate(7px, -6px);
+			}
+		}
+	}
+
+	&__hamburger-line {
+		transition: all .7s;
+		width: 25px;
+		height: 2px;
+		background: $color__white;
+
+		&:not(:last-of-type) {
+			margin-bottom: 8px;
+		}
+
+		&--1 {
+		}
+		&--2 {
+		}
+		&--3 {
+		}
+	}
+
+	&__title {
+		color: $color__white;
+		&__logo {
+			max-height: 31px;
+		}
+	}
+
+	&__nav {
+		background: $color__primary;
+		transition: transform .3s;
+		position: fixed;
+		margin-top: $spacing--base;
+		left: 0;
+		width: 80%;
+		max-width: $breakpoint--xs;
+		transform: translateX(-100%);
+		z-index: 3;
+		border-radius: 0 $border__radius $border__radius 0;
+
+		&--active {
+			transform: translateX(0);
+		}
+	}
+
+	&__link {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		transition: background .3s;
+		color: $color__white;
+		text-decoration: none;
+		padding:  $spacing--s $spacing--base;
+
+		&:first-child {
+			border-radius: 0 $border__radius 0 0;
+		}
+
+		&:last-child {
+			border-radius: 0 0 $border__radius 0;
+		}
+
+		&:not(:last-child) {
+			border-bottom: 2px solid $color__white--translucent;
+		}
+
+		&:hover,
+		&:active {
+			background: $color__primary--light;
+			color: $color__white;
+		}
+	}
+
+	&__overlay {
+		transition: opacity .3s;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 0;
+		height: 0;
+		background: rgba($color__black, .7);
+		z-index: -100; // hide until active
+		opacity: 0;
+
+		&--active {
+			opacity: 1;
+			z-index: 2;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	// MODIFIERS
+
+	&--fixed {
+		position: fixed;
+		width: 100%;
+		padding-top: $spacing--base;
+		padding-bottom: $spacing--base;
+	}
+}

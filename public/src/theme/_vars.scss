@@ -1,0 +1,68 @@
+// COLORS
+
+$color__primary: #F98A5D;
+$color__primary--light: lighten($color__primary, 15%);
+$color__primary--dark: darken($color__primary, 25%);
+$color__accent: #1EAC96;
+$color__accent--dark: darken($color__accent, 15%);
+$color__white: #FFFFFF;
+$color__gray: #7F8C8D;
+$color__gray--dark: #333333;
+$color__gray--light: #CCCCCC;
+$color__gray--xlight: #E5E5E5;
+$color__gray--xxlight: #F9F9F9;
+$color__black: #000000;
+$color__black--translucent: rgba($color__black, .1);
+$color__white--translucent: rgba($color__white, .5);
+
+// FONTS
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,100|Open+Sans:400italic,400,700);
+$font__family--primary: 'Open Sans', sans;
+$font__family--secondary: 'Roboto Slab', sans;
+$font__family--monospace: Monaco, monospace;
+$font__family--icons: icomoon;
+
+$font__size--xxxs: .5rem;
+$font__size--xxs: .7rem;
+$font__size--xs: .8rem;
+$font__size--s: 1rem;
+$font__size--m: 1.1rem;
+$font__size--l: 1.9rem;
+$font__size--xl: 2.5rem;
+$font__size--xxl: 3.0rem;
+$font__size--xxxl: 4.0rem;
+$font__size--xxxxl: 5.0rem;
+$font__size--xxxxxl: 7.0rem;
+
+$font__linespacing--s: 1.1;
+$font__linespacing--m: 1.4;
+$font__linespacing--l: 1.7;
+
+// SPACING
+
+$spacing--base: 1rem;
+$spacing--xxxs: ($spacing--base / 5);
+$spacing--xxs: ($spacing--base / 4);
+$spacing--xs: ($spacing--base / 3);
+$spacing--s: ($spacing--base / 1.5);
+$spacing--m: ($spacing--base);
+$spacing--l: ($spacing--base * 1.5);
+$spacing--xl: ($spacing--base * 3);
+$spacing--xxl: ($spacing--base * 4);
+$spacing--xxxl: ($spacing--base * 10);
+
+$border--m: 2px;
+$border__radius: 3px;
+$box__shadow: 0 0 4px $color__black--translucent;
+
+// BREAKPOINTS
+$breakpoint--xs: 320px;
+$breakpoint--s: 500px;
+$breakpoint--m: 640px;
+$breakpoint--l: 900px;
+$breakpoint--xl: 1200px;
+$breakpoint--xxl: 1600px;
+
+// ANIMATIONS
+$transition__speed--fast: .3s;

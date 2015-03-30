@@ -1,0 +1,47 @@
+# GENERAL
+
+title:               Your Title
+tagline:             'Your Tagline'
+description:         'Your Description'
+url:                 www.yourprojectdomain.com
+author:
+  name:              Your Name
+  url:               www.yourwebsite.com
+
+# MENU
+
+menu:
+  - href:			/
+    text:			Home
+  - href:			/blog
+    text:			Blog
+  - href:			/about
+    text:			About
+
+# SOCIAL
+
+social:
+  - href:			#
+    icon:			youtube
+  - href:			#
+    icon:			twitter
+  - href:			#
+    icon:			github
+  - href:			#
+    icon:			envelope
+  - href:			http://www.yourprojectdomain.com/atom.xml
+    icon:			rss
+
+# ACCOUNTS
+
+# webmasterID: 		0000000000000000000000000000000000000000
+
+# OTHER
+
+baseurl:             	/
+permalink:           	/blog/:categories/:title/
+relative_permalinks: 	true
+paginate:				5
+paginate_path:			/blog/page:num/
+markdown:            	redcarpet
+highlighter:         	pygments

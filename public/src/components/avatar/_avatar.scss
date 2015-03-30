@@ -1,0 +1,18 @@
+.avatar {
+	margin: 0 auto $spacing--l;
+	max-width: $breakpoint--s;
+	text-align: center;
+
+	&__image {
+		width: 75%;
+		max-width: 250px;
+		margin: 0 auto $spacing--xs;
+		border-radius: 50%;
+		border: $border--m solid $color__gray--xlight;
+	}
+
+	&__caption {
+		margin-bottom: 0;
+	}
+}
+

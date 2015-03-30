@@ -1,0 +1,16 @@
+%cushion {
+	padding: $spacing--l;
+	width: 100%;
+	max-width: $breakpoint--xl;
+	margin: 0 auto;
+
+	@media(min-width: $breakpoint--s) {
+		padding: $spacing--xl;
+	}
+}
+
+%ellipsis-overflow {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

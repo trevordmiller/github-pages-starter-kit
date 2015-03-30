@@ -1,0 +1,74 @@
+// GENERAL
+
+html {
+
+	// FONT FAMILY RESET
+	font-family: $font__family--primary;
+
+	color: $color__gray;
+
+	// REM FONT SIZING RESET
+	// So that 1rem = 10px
+	font-size: 62.5%;
+	font-size: 1.1rem;
+
+	// Prevent webkit font scaling issues
+	-webkit-text-size-adjust: 100%;
+
+	@media(min-width: $breakpoint--s) {
+		font-size: 1.3rem;
+	}
+}
+
+body {
+
+	// BODY MARGIN RESET
+	margin: 0;
+}
+
+// IMAGES
+
+img {
+	max-width: 100%;
+}
+
+// BORDER BOX SIZING
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+// BUTTONS & FOCUS
+
+// Remove browser specific button styles
+button {
+	background: transparent;
+	border: 0;
+}
+
+// Change browser specific focus outlines to match branding
+*:focus,
+*:active {
+	outline: 0;
+}
+
+button,
+input,
+textarea {
+	&:focus {
+		box-shadow: 0 0 1px 1px $color__primary;
+	}
+}
+
+// SELECTION
+::selection {
+	background: $color__primary; // WebKit/Blink Browsers
+	color: $color__white;
+}
+
+::-moz-selection {
+	background: $color__primary; // Gecko Browsers
+	color: $color__white;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "fitit",
+  "_cacheHeaders": {
+    "ETag": "\"a32a800737042b5a7ec0b7637383e11c914485b1\"",
+    "Content-Length": "2997",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "_release": "e-tag:a32a80073",
+  "main": "index.js",
+  "_source": "https://raw.githubusercontent.com/uniqname/fitIt/master/fitit.js",
+  "_target": "*",
+  "_originalSource": "https://raw.githubusercontent.com/uniqname/fitIt/master/fitit.js"
+}

@@ -1,0 +1,10 @@
+a {
+	transition: color $transition__speed--fast;
+	color: $color__primary;
+	text-decoration: none;
+
+	&:hover,
+	&:active {
+		color: $color__primary--dark;
+	}
+}

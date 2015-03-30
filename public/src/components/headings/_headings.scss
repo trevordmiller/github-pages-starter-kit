@@ -1,0 +1,32 @@
+h1,
+h2 {
+	font-family: $font__family--secondary;
+	text-align: center;
+}
+
+h1 {
+	font-size: $font__size--xl;
+	color: $color__gray--dark;
+	font-weight: 300;
+}
+
+h2 {
+	font-weight: 100;
+	margin-top: $spacing--l;
+	font-size: $font__size--l;
+	color: $color__gray--dark;
+}
+
+h3 {
+	font-weight: bold;
+	font-family: $font__family--primary;
+	font-size: $font__size--m;
+}
+
+h4 {
+	font-weight: 400;
+	text-decoration: underline;
+	color: $color__gray--dark;
+	font-family: $font__family--primary;
+	font-size: $font__size--m;
+}

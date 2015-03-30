@@ -1,0 +1,8 @@
+.DS_Store
+npm-debug.log
+node_modules/
+.sass-cache/
+client/dist/
+client/src/libs/
+.idea/
+.rebooted

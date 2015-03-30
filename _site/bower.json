@@ -1,0 +1,25 @@
+{
+	"name": "frontendtv.github.io",
+	"version": "1.0.0",
+	"homepage": "https://github.com/FrontEndTV/frontendtv.github.io",
+	"authors": [
+		"Trevor D. Miller <trevordmiller@icloud.com>"
+	],
+	"description": "Dependencies for Front End TV",
+	"moduleType": [
+		"globals",
+		"node"
+	],
+	"license": "Copyright",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"fitit": "https://raw.githubusercontent.com/uniqname/fitIt/master/fitit.js"
+	}
+}

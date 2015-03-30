@@ -1,0 +1,7 @@
+.main {
+	@extend %cushion;
+	margin-top: $spacing--xxl;
+
+	// Sticky footer
+	flex: 1;
+}

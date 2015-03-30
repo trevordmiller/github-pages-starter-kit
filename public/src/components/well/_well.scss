@@ -1,0 +1,20 @@
+.well {
+	border-radius: $border__radius;
+	background: $color__gray--xlight;
+	padding: $spacing--m;
+	margin: 0 0 $spacing--l;
+	text-align: center;
+
+	h2 {
+		margin-top: 0;
+	}
+
+	&--warning {
+		background: $color__accent;
+		color: $color__white;
+
+		h2 {
+			color: $color__white--translucent;
+		}
+	}
+}

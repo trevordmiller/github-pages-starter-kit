@@ -1,0 +1,28 @@
+.post {
+
+	&__header {
+		text-align: center;
+		margin-bottom: $spacing--l;
+		border: $border--m solid $color__gray--xlight;
+		border-radius: $border__radius;
+		padding: $spacing--l;
+	}
+
+	&__title {
+		margin: 0;
+	}
+
+	&__description {
+
+	}
+
+	&__category {
+		color: $color__gray--light;
+		margin: 0;
+	}
+
+	&__date {
+		color: $color__gray--light;
+		margin: 0;
+	}
+}

@@ -1,0 +1,22 @@
+<header class="header">
+	<div class="header__content">
+		<div class="header__bar">
+			<a class="header__nav-toggle">
+				<div class="header__hamburger">
+					<div class="header__hamburger-line header__hamburger-line--1"></div>
+					<div class="header__hamburger-line header__hamburger-line--2"></div>
+					<div class="header__hamburger-line header__hamburger-line--3"></div>
+				</div>
+			</a>
+			<a class="header__title" href="/" title="Home"><img class="header__title__logo" src="{{site.baseurl}}public/dist/images/logo--reverse.png" alt="{{site.title}} logo"/></a>
+		</div>
+		<nav class="header__nav">
+			{% for item in site.menu %}
+				<a class="header__link" href="{{item.href}}">
+					<span class="header__link-text">{{item.text}}</span>
+				</a>
+			{% endfor %}
+		</nav>
+	</div>
+	<div class="header__overlay"></div>
+</header>

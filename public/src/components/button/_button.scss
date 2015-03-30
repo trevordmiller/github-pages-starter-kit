@@ -1,0 +1,36 @@
+.button {
+	display: inline-block;
+	margin: $spacing--l auto;
+	cursor: default;
+	padding: $spacing--s $spacing--l;
+	border-radius: $border--m;
+	text-align: center;
+	border: $border--m solid $color__gray--xlight;
+	color: $color__gray--xlight;
+	width: 100%;
+	margin: 0 auto;
+
+	&:hover,
+	&:active {
+		color: $color__gray--xlight;
+	}
+
+	@media(min-width: $breakpoint--s) {
+		margin-bottom: 0;
+		width: auto;
+	}
+
+	&[href] {
+		cursor: pointer;
+		color: $color__white;
+		transition: all $transition__speed--fast;
+		border: $border--m solid $color__accent;
+		background: $color__accent;
+
+		&:hover,
+		&:active {
+			background: $color__accent--dark;
+			border: $border--m solid $color__accent--dark;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.footer {
+	border-top: $border--m solid $color__gray--xlight;
+	margin-top: $spacing--l;
+	background: $color__gray--xxlight;
+
+	&__content {
+		@extend %cushion;
+	}
+
+	&__social-bar {
+		@include grid($breakpoint--s, 5, $spacing--l);
+
+		// override default
+		.icon {
+			font-size: $font__size--xxl;
+		}
+		&__item {
+			text-align: center;
+		}
+	}
+
+	&__copyright {
+		text-align: center;
+		margin: $spacing--l 0 0;
+		font-size: $font__size--xs;
+		color: $color__gray--light;
+	}
+}

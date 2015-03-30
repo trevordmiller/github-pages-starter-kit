@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Your Title</title>
+ <subtitle>Your Description</subtitle>
+ <link href="www.yourprojectdomain.com/atom.xml" rel="self"/>
+ <link href="www.yourprojectdomain.com/"/>
+ <updated>2015-03-29T18:18:48-06:00</updated>
+ <id>www.yourprojectdomain.com</id>
+ <author>
+   <name>Your Name</name>
+   <email></email>
+ </author>
+ <icon>www.yourprojectdomain.com/public/dist/images/atom-feed/logo--icon.jpg</icon>
+ <logo>www.yourprojectdomain.com/public/dist/images/atom-feed/logo.jpg</logo>
+ <rights>© 2015 Front End TV</rights>
+
+ 
+ <entry>
+   <title>Another Example Blog Post</title>
+   <link href="www.yourprojectdomain.com/blog/example/example-blog-post-2/"/>
+   <updated>2015-01-02T00:00:00-07:00</updated>
+   <id>www.yourprojectdomain.com/blog/example/example-blog-post-2</id>
+   <category term="example"/>
+   <summary>Another example</summary>
+   <description>Another example</description>
+   <content type="html">&lt;p&gt;Brisket kielbasa strip steak drumstick tri-tip landjaeger frankfurter leberkas chuck. Ground round meatloaf pancetta shoulder jowl ribeye. Alcatra short loin meatball, shank pancetta bresaola rump frankfurter andouille pork belly ribeye hamburger boudin venison chicken. Shankle prosciutto ball tip, ribeye andouille beef ribs t-bone. Jerky drumstick beef ribs ball tip tri-tip doner pork belly turducken picanha. Corned beef meatloaf kevin porchetta sirloin drumstick boudin ham cow pig t-bone ground round.&lt;/p&gt;
+
+&lt;p&gt;Prosciutto pork loin porchetta, bacon salami venison brisket ham hock shank landjaeger frankfurter. Doner frankfurter flank t-bone spare ribs pancetta strip steak short loin, pork loin shankle tail. Ribeye short ribs kielbasa meatloaf landjaeger spare ribs fatback. Pork belly kevin landjaeger ham hock, capicola pork kielbasa pork chop turducken beef ribs. Alcatra pork belly porchetta, venison beef t-bone pancetta sirloin boudin tenderloin filet mignon chicken.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Example Blog Post</title>
+   <link href="www.yourprojectdomain.com/blog/example/example-blog-post/"/>
+   <updated>2015-01-01T00:00:00-07:00</updated>
+   <id>www.yourprojectdomain.com/blog/example/example-blog-post</id>
+   <category term="example"/>
+   <summary>An example</summary>
+   <description>An example</description>
+   <content type="html">&lt;p&gt;This is a sweet example post&lt;/p&gt;
+
+&lt;p&gt;It uses &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Here is a code block&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;someFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4&gt;This is a heading. Yep.&lt;/h4&gt;
+
+&lt;p&gt;You can have some inline code like &lt;code&gt;var answer = 42&lt;/code&gt;. And &lt;strong&gt;bold&lt;/strong&gt; and &lt;em&gt;italicize&lt;/em&gt; and whatnot.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

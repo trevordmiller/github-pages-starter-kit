@@ -1,0 +1,31 @@
+---
+layout: default
+title: Posts
+---
+
+{% for post in paginator.posts %}
+	<div class="post-teaser">
+		<h1 class="post-teaser__title"><a class="post-teaser__title__link" href="{{post.url}}">{{post.title}}</a></h1>
+		<p class="post-teaser__description">{{ post.description }}</p>
+		<p class="post-teaser__category"><span class="icon icon--tag"></span> {{post.category}}</p>
+		<p class="post-teaser__date">{{ post.date | date_to_string }}</p>
+	</div>
+{% endfor %}
+
+<nav class="pagination">
+	{% if paginator.next_page %}
+		<a class="pagination__item pagination__item--older button" href="{{site.baseurl}}page{{paginator.next_page}}">Older</a>
+	{% else %}
+		<a class="pagination__item pagination__item--older button">Older</a>
+	{% endif %}
+	{% if paginator.previous_page %}
+		{% if paginator.page == 2 %}
+			<a class="pagination__item pagination__item--newer button" href="{{site.baseurl}}">Newer</a>
+		{% else %}
+			<a class="pagination__item pagination__item--newer button" href="{{site.baseurl}}page{{paginator.previous_page}}">Newer</a>
+		{% endif %}
+	{% else %}
+		<a class="pagination__item pagination__item--newer button">Newer</a>
+	{% endif %}
+</nav>
+
