@@ -11,11 +11,11 @@ author:
 # MENU
 
 menu:
-  - href:			/
+  - href:			/github-pages-starter-kit/
     text:			Home
-  - href:			/blog
+  - href:			/github-pages-starter-kit/blog
     text:			Blog
-  - href:			/about
+  - href:			/github-pages-starter-kit/about
     text:			About
 
 # SOCIAL
