@@ -24,13 +24,13 @@
 		cursor: pointer;
 		color: $color__white;
 		transition: all $transition__speed--fast;
-		border: $border--m solid $color__accent;
-		background: $color__accent;
+		border: $border--m solid $color__primary;
+		background: $color__primary;
 
 		&:hover,
 		&:active {
-			background: $color__accent--dark;
-			border: $border--m solid $color__accent--dark;
+			background: $color__primary--dark;
+			border: $border--m solid $color__primary--dark;
 		}
 	}
 }

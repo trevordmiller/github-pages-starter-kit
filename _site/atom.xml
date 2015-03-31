@@ -5,14 +5,14 @@
  <subtitle>Your Description</subtitle>
  <link href="www.yourprojectdomain.com/atom.xml" rel="self"/>
  <link href="www.yourprojectdomain.com/"/>
- <updated>2015-03-29T18:18:48-06:00</updated>
+ <updated>2015-03-30T19:13:19-06:00</updated>
  <id>www.yourprojectdomain.com</id>
  <author>
    <name>Your Name</name>
    <email></email>
  </author>
- <icon>www.yourprojectdomain.com/public/dist/images/atom-feed/logo--icon.jpg</icon>
- <logo>www.yourprojectdomain.com/public/dist/images/atom-feed/logo.jpg</logo>
+ <icon>www.yourprojectdomain.com/github-pages-starter-kit/public/dist/images/atom-feed/logo--icon.jpg</icon>
+ <logo>www.yourprojectdomain.com/github-pages-starter-kit/public/dist/images/atom-feed/logo.jpg</logo>
  <rights>© 2015 Front End TV</rights>
 
  
