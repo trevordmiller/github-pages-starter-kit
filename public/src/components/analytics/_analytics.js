@@ -2,6 +2,8 @@ export var analytics = {};
 
 analytics.init = () => {
 
+	var googleAnalyticsID = 'UA-00000000-0';
+
 	/* jshint ignore:start */
 	// Code from Google Analytics account
 	(function (i, s, o, g, r, a, m) {
@@ -15,7 +17,7 @@ analytics.init = () => {
 		a.src = g;
 		m.parentNode.insertBefore(a, m)
 	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-	ga('create', 'UA-51091805-1', 'auto');
+	ga('create', googleAnalyticsID, 'auto');
 	ga('send', 'pageview');
 	/* jshint ignore:end */
 };
