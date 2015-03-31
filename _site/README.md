@@ -4,7 +4,9 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 
 ---
 
-## Out-of-the-box
+## What is this thing?
+
+[See the starter kit in action](http://trevordmiller.github.io/github-pages-starter-kit).
 
 - Blazing fast
 	- Pre-generated
@@ -49,7 +51,7 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 0. Install [Node + npm](https://nodejs.org/).
 0. Clone this project.
 0. Run `npm install` and `bower install` to get dependencies.
-0. Run `npm start`. This will run all of the gulp tasks (super fast), then run the jekyll build (painfully slow), then launch a live reloading BrowserSnc server for quick development. You may need to kill and re-run `npm start` if you add a new directory/file to the project.
+0. Run `gulp serve`. This will run all of the gulp tasks (super fast), then run the jekyll build (takes a bit), then launch a live reloading BrowserSnc server for quick development. You may need to kill and re-run `npm start` if you add a new directory/file to the project.
 
 ---
 
@@ -65,9 +67,12 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 
 ### Optional
 
+- Update the `README.md`.
 - Add/update icons to `public/src/fonts/icomoon/fonts/*` and the related `$icons` Sass map in `public/src/components/icons/_icons.scss`.
 - Google Webmaster verification: update and uncomment the related line in `_includes/head.html`. 
-- Google analytics: update and uncomment the related lines in `public/src/components/analytics/_analytics.js`.
+- Google analytics
+	- add your `googleAnalyticsID` in `public/src/components/analytics/_analytics.js`
+	- uncomment the import and init lines in `pulic/src/main.js`.
 - If you want a custom domain, follow [GitHub's instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/).
 - If you want a blog, just add `.md` posts to the `_posts/` directory and they will show up at `/blog` See [Jekyll's docs](http://jekyllrb.com/) for more info and customizations.
 
