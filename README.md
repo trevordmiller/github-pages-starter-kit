@@ -51,7 +51,7 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 0. Install [Node + npm](https://nodejs.org/).
 0. Clone this project.
 0. Run `npm install` and `bower install` to get dependencies.
-0. Run `gulp serve`. This will run all of the gulp tasks (super fast), then run the jekyll build (takes a bit), then launch a live reloading BrowserSnc server for quick development. You may need to kill and re-run `npm start` if you add a new directory/file to the project.
+0. Run `gulp serve`. This will run all of the gulp tasks (super fast), then run the jekyll build (takes a bit), then launch a live reloading BrowserSnc server for quick development. You may need to kill and re-run `gulp serve` if you add a new directory/file to the project.
 
 ---
 
