@@ -13,10 +13,13 @@ author:
 menu:
   - href:			/
     text:			Home
+    icon:     home
   - href:			/blog
     text:			Blog
+    icon:     pencil
   - href:			/about
     text:			About
+    icon:     info-circle
 
 # SOCIAL
 

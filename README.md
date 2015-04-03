@@ -74,6 +74,9 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 	- add your `googleAnalyticsID` in `public/src/components/analytics/_analytics.js`
 	- uncomment the import and init lines in `pulic/src/main.js`.
 - If you want a custom domain, follow [GitHub's instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/).
+	1. Add a `CNAME` file to the project root with a single line: `www.yourdomain.com`.
+	1. Change your `CNAME` record with your domain manager to point to `yourproject.github.io` so that going to `www.yourdomain.com` works.
+	1. Changing/adding two A records to point to `192.30.252.153` and `192.30.252.154` so that going to `yourdomain.com` (no `www`) also works.
 - If you want a blog, just add `.md` posts to the `_posts/` directory and they will show up at `/blog` See [Jekyll's docs](http://jekyllrb.com/) for more info and customizations.
 
 Happy coding :)
