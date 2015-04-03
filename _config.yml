@@ -11,12 +11,15 @@ author:
 # MENU
 
 menu:
-  - href:			/github-pages-starter-kit/
+  - href:			/
     text:			Home
-  - href:			/github-pages-starter-kit/blog
+    icon:     home
+  - href:			/blog
     text:			Blog
-  - href:			/github-pages-starter-kit/about
+    icon:     pencil
+  - href:			/about
     text:			About
+    icon:     info-circle
 
 # SOCIAL
 

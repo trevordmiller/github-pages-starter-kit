@@ -1,7 +1,16 @@
 import {header} from './components/header/_header.js';
+<<<<<<< HEAD
+=======
 // import {analytics} from './components/analytics/_analytics.js';
+>>>>>>> 69d3eccf45418fdaa9dbe7fee2e0d1dfae9cf4c4
 
 document.addEventListener('DOMContentLoaded', () => {
 	header.init();
+<<<<<<< HEAD
+
+	// INIT LIB MODULES
+	fitIt('[src*="youtube.com"]');
+=======
 	// analytics.init();
+>>>>>>> 69d3eccf45418fdaa9dbe7fee2e0d1dfae9cf4c4
 });

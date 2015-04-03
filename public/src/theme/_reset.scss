@@ -40,13 +40,7 @@ img {
 	box-sizing: border-box;
 }
 
-// BUTTONS & FOCUS
-
-// Remove browser specific button styles
-button {
-	background: transparent;
-	border: 0;
-}
+// BROWSER & BRANDING CONSISTENCY
 
 // Change browser specific focus outlines to match branding
 *:focus,
@@ -54,11 +48,45 @@ button {
 	outline: 0;
 }
 
-button,
-input,
+// FORMS
+
+input[type=tel],
+input[type=email],
+input[type=text],
+input[type=url],
+input[type=search]
 textarea {
+	-webkit-appearance: none;
+	border: 0;
+	font-size: $font__size--s;
+	padding: 0 $spacing__xs;
+	color: $color__gray--dark;
+	border-radius: $border__radius;
+	border: 2px solid $color__gray--xlight;
+
 	&:focus {
-		box-shadow: 0 0 1px 1px $color__primary;
+		box-shadow: 0;
+		border: 2px solid $color__primary;
+	}
+}
+
+input[type=submit],
+button {
+	-webkit-appearance: none;
+	background: transparent;
+	transition: background $transition__speed--fast;
+	border: 0;
+	border-radius: $border__radius;
+	padding: $spacing__s $spacing__l;
+	background: $color__accent;
+	color: $color__white;
+	font-size: $font__size--s;
+
+	&:hover,
+	&:active {
+		background: $color__accent--dark;
+		color: $color__white;
+		cursor: pointer;
 	}
 }
 

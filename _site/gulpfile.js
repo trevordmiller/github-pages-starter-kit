@@ -5,7 +5,6 @@
 // IMPORTS
 
 var cp = require('child_process'),
-	del = require('del'),
 	gulp = require('gulp'),
 	util = require('gulp-util'),
 	plumber = require('gulp-plumber'),
@@ -18,7 +17,7 @@ var cp = require('child_process'),
 	stylish = require('jshint-stylish'),
 	jshint = require('gulp-jshint'),
 	moduleTranspiler  = require('gulp-es6-module-transpiler'),
-	babel = require("gulp-babel"),
+	babel = require('gulp-babel'),
 	uglify = require('gulp-uglify'),
 	imagemin = require('gulp-imagemin'),
 	browserSync = require('browser-sync');
@@ -91,21 +90,13 @@ var customSassError = function (err) {
 
 // GENERAL
 
-gulp.task('assets', ['clean', 'styles', 'scripts', 'images', 'fonts']);
+gulp.task('assets', ['styles', 'scripts', 'images', 'fonts']);
 gulp.task('default', ['assets', 'markdown']);
 gulp.task('serve', ['default', 'browser-sync', 'watch']);
 
-// CLEAN
-
-gulp.task('clean', function (cb) {
-	del([
-		distFolder + '**'
-	], cb);
-});
-
 // STYLES
 
-gulp.task('styles', ['clean'], function () {
+gulp.task('styles', function () {
 	return gulp.src(mainStyleFile)
 		.pipe(plumber({errorHandler: onError}))
 		.pipe(sourcemaps.init())
@@ -121,7 +112,7 @@ gulp.task('styles', ['clean'], function () {
 
 // SCRIPTS
 
-gulp.task('scripts', ['clean'], function(){
+gulp.task('scripts', function(){
 	return gulp.src(srcScriptFiles)
 		.pipe(plumber({errorHandler: onError}))
 		.pipe(sourcemaps.init())
@@ -139,7 +130,7 @@ gulp.task('scripts', ['clean'], function(){
 
 // IMAGES
 
-gulp.task('images', ['clean'], function (){
+gulp.task('images', function (){
 	return gulp.src(srcImageFiles)
 		.pipe(plumber({errorHandler: onError}))
 		.pipe(imagemin())
@@ -148,7 +139,7 @@ gulp.task('images', ['clean'], function (){
 
 // FONTS
 
-gulp.task('fonts', ['clean'], function() {
+gulp.task('fonts', function() {
 	return gulp.src(srcFontFiles)
 		.pipe(plumber({errorHandler: onError}))
 		.pipe(gulp.dest(distFolder + 'fonts'));
