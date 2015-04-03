@@ -11,13 +11,13 @@ author:
 # MENU
 
 menu:
-  - href:			/
+  - href:			/github-pages-starter-kit/
     text:			Home
     icon:     home
-  - href:			/blog
+  - href:			/github-pages-starter-kit/blog
     text:			Blog
     icon:     pencil
-  - href:			/about
+  - href:			/github-pages-starter-kit/about
     text:			About
     icon:     info-circle
 
