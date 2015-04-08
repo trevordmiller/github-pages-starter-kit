@@ -4,9 +4,13 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 
 ---
 
-## What is this thing?
+## An Example
 
 [See the starter kit in action](http://trevordmiller.github.io/github-pages-starter-kit).
+
+---
+
+## Features
 
 - Blazing fast
 	- Pre-generated
@@ -49,15 +53,13 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 ## Getting Started
 
 0. Install [Node + npm](https://nodejs.org/).
-0. Clone this project.
+0. Download this project.
 0. Run `npm install` and `bower install` to get dependencies.
 0. Run `gulp serve`. This will run all of the gulp tasks (super fast), then run the jekyll build (takes a bit), then launch a live reloading BrowserSnc server for quick development. You may need to kill and re-run `gulp serve` if you add a new directory/file to the project.
 
----
+Congrats! You have a running project ;)
 
-## Customize
-
-### Required
+#### Required Customizations
 
 - `_config.yml`.
 - Images and favicons in `public/src/images/`; I highly recommend using [realfavicongenerator](http://realfavicongenerator.net/) as the `favicons` folder it gives you can completely replace the default `public/images/favicons` and the HTML is already in place; otherwise, you would need to tweak the `_includes/favicons.html`.
@@ -65,7 +67,7 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 - Add/update other pages in `*/index.html` (including the default "About" page).
 - Add/update components in `public/src/components/` which are imported into `main.js` and `main.scss` and liquid templates in pages, `_includes` and `_layouts` depending on the file type(s) used.
 
-### Optional
+#### Optional Customizations
 
 - Update the `README.md`.
 - Add/update icons to `public/src/fonts/icomoon/fonts/*` and the related `$icons` Sass map in `public/src/components/icons/_icons.scss`.
@@ -78,8 +80,6 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 	1. Change your `CNAME` record with your domain manager to point to `yourproject.github.io` so that going to `www.yourdomain.com` works.
 	1. Changing/adding two A records to point to `192.30.252.153` and `192.30.252.154` so that going to `yourdomain.com` (no `www`) also works.
 - If you want a blog, just add `.md` posts to the `_posts/` directory and they will show up at `/blog` See [Jekyll's docs](http://jekyllrb.com/) for more info and customizations.
-
-Happy coding :)
 
 ---
 
