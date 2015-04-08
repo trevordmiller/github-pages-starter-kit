@@ -4,9 +4,11 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 
 ---
 
-## An Example
+## Examples
 
-[See the starter kit in action](http://trevordmiller.github.io/github-pages-starter-kit).
+- [Default Starter Kit](http://trevordmiller.github.io/github-pages-starter-kit)
+- [Blog](http://www.frontend.tv/)
+- [Portfolio](http://www.amyjomiller.com/)
 
 ---
 
