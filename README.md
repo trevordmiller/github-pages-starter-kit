@@ -35,6 +35,7 @@ _An opinionated starter kit for GitHub Pages projects. For building lightweight 
 		- Uglify and concat
 		- JSHint + `.jshintrc`
 	- Sass
+		- Via [node-sass](https://www.npmjs.com/package/node-sass) (libsass)
 		- Minimal/flat/clean/whatever design
 		- BEM components
 		- Branded reset
