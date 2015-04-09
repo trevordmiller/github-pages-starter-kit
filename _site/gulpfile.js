@@ -37,8 +37,7 @@ var distFolder = './public/dist/',
 	componentScriptFiles = './public/src/components/**/*.js',
 	srcScriptFiles = [
 		mainScriptFile,
-		componentScriptFiles,
-		'./public/src/libs/fitit/index.js'
+		componentScriptFiles
 	],
 	srcImageFiles = [
 		'./public/src/images/**/*.{gif,jpg,png,svg}'
