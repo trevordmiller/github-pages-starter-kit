@@ -1,3 +1,7 @@
+# [DEPRECATED]
+
+---
+
 # GitHub Pages Starter Kit
 
 _An opinionated starter kit for GitHub Pages projects. For building lightweight static sites customized with a modern build beyond what Jekyll offers by default._
